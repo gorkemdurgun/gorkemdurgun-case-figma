@@ -47,15 +47,33 @@
     @apply font-sans text-[18px] font-[500] leading-[19.8px];
   }
   .subtitle-m {
-    @apply font-sans text-[16px] font-[500] leading-[17.6px];
+    @apply font-sans text-[16px] font-[500] leading-[24px];
   }
   .subtitle-s {
     @apply font-sans text-[14px] font-[500] leading-[15.4px];
   }
 
   /* Button Styles */
+  .btn {
+    @apply bg-transparent text-peanut tracking-[0.5px] rounded-[8px] cursor-pointer flex items-center justify-center transition duration-300 ease-in-out scale-100 transform hover:scale-105;
+  }
+  .btn-xl-outline {
+    @apply h6 border-[2px] border-solid border-peanut;
+  }
+  .btn-xl {
+    @apply h6;
+  }
   .btn-l-outline {
-    @apply bg-transparent border-[2px] border-solid border-peanut subtitle-xl text-peanut rounded-[8px] p-[16px] cursor-pointer;
+    @apply subtitle-xl border-[2px] border-solid border-peanut;
+  }
+  .btn-l {
+    @apply subtitle-xl;
+  }
+  .btn-m-outline {
+    @apply subtitle-m  border-[2px] border-solid border-peanut;
+  }
+  .btn-m {
+    @apply subtitle-m;
   }
 }
 
@@ -69,4 +87,12 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
 }
