@@ -8,6 +8,7 @@ import TunnelBadge from "./tunnel_badge.svg";
 import TvIcon from "./tv_icon.svg";
 import TvBadge from "./tv_badge.svg";
 import ShoppingIcon from "./shopping_icon.svg";
+import CheckIcon from "./check_icon.svg";
 
 // JPEGs
 import Card1Photo from "./card1.jpeg";
@@ -24,6 +25,7 @@ export const svg = {
   TvIcon,
   TvBadge,
   ShoppingIcon,
+  CheckIcon,
 };
 
 export const jpeg = {

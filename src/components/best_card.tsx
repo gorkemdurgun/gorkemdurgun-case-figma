@@ -9,7 +9,7 @@ type Props = {
 
 export const BestCard: React.FC<Props> = ({ image, title, description }) => {
   return (
-    <div className="relative z-10 flex flex-col gap-[10px] text-start rounded-[10px] bg-darkBlue shadow-custom-heavy">
+    <div className="relative z-10 flex flex-col gap-[10px] text-start rounded-[10px] bg-darkBlue shadow-combine-lights">
       {/* Card Header */}
       <div className="relative w-full h-[220px] rounded-t-[10px]">
         <ImageBox alt="Card 1" className="w-full h-full rounded-t-[10px]" imgClassName="rounded-t-[4px]" image={image} />

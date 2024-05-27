@@ -99,8 +99,38 @@ function App() {
             <div className="relative">
               <BestCard image={jpeg.Card1Photo} title="Title" description="Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse." />
               <div className="z-1 absolute top-4 -right-12 w-[232px] h-[232px] rounded-[50px] bg-[#15803D] opacity-75" />
-              <div className="z-0 absolute -bottom-8 right-32 w-[202px] h-[202px] rounded-[30px] bg-[#A21CAF] opacity-75" />
+              <div className="z-0 absolute -bottom-6 right-32 w-[202px] h-[202px] rounded-[30px] bg-[#A21CAF] opacity-75" />
             </div>
+          </div>
+        </div>
+      </section>
+      {/* Why join us section */}
+      <section className="why-join-us">
+        <div className="flex flex-col items-center justify-center py-[160px] px-[80px] gap-[80px] bg-eggWhite">
+          <div className="w-full flex flex-row items-center justify-between gap-[80px] p-[80px] rounded-[30px] bg-white shadow-combine-darks">
+            {/* Why join us left side */}
+            <div className="flex flex-col gap-[24px] text-start">
+              <h2 className="h2 text-darkBlue">Why join us</h2>
+              <div className="flex flex-col text-start">
+                {/* Why join us point 1 */}
+                <span className="flex flex-row items-center gap-[8px] radius-[20px]">
+                  <img className="w-[16px] h-[16px]" src={svg.CheckIcon} alt="Check Icon" />
+                  <p className="body-xl text-darkBlue">Est et in pharetra magna adipiscing ornare aliquam.</p>
+                </span>
+                {/* Why join us point 2 */}
+                <span className="flex flex-row items-center gap-[8px] radius-[20px]">
+                  <img className="w-[16px] h-[16px]" src={svg.CheckIcon} alt="Check Icon" />
+                  <p className="body-xl text-darkBlue">Tellus arcu sed consequat ac velit ut eu blandit.</p>
+                </span>
+                {/* Why join us point 3 */}
+                <span className="flex flex-row items-center gap-[8px] radius-[20px]">
+                  <img className="w-[16px] h-[16px]" src={svg.CheckIcon} alt="Check Icon" />
+                  <p className="body-xl text-darkBlue">Ullamcorper ornare in et egestas dolor orci.</p>
+                </span>
+              </div>
+              <button className="btn btn-l-outline w-fit p-[16px]">Sign up now</button>
+            </div>
+            {/* Why join us right side */}
           </div>
         </div>
       </section>
