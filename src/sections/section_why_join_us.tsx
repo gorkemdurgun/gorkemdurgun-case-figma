@@ -37,7 +37,7 @@ export const SectionWhyJoinUs = () => {
             <div className="absolute top-12 md:top-10 -left-6 md:left-4 w-[55px] md:w-[90px] h-[55px] h-[90px] rounded-[30px] bg-[#B45309] opacity-75" />
             <div className="z-10 absolute -bottom-6 md:-bottom-4 left-10 md:left-28 transform -translate-y-1/2 w-[50px] md:w-[90px] h-[50px] md:h-[90px] rounded-[50%] bg-[#15803D] opacity-75" />
             <div className="absolute -bottom-10 md:-bottom-20 -right-12 md:-right-32 w-[134px] md:w-[218px] h-[134px] md:h-[218px] rounded-[50px] bg-[#BE185D] opacity-75" />
-            {/* <div className="absolute bottom-4 right-14 w-[74px] h-[74px] rounded-[30px] bg-[#A21CAF] opacity-75" /> */}
+            <div className="absolute bottom-0 md:bottom-4 right-16 md:right-14 w-[45px] md:w-[74px] h-[45px] md:h-[74px] rounded-[30px] bg-[#A21CAF] opacity-75" />
             <ImageBox alt="WhyJoinUs" className="scale-[1.15] md:scale-1 w-full h-auto rounded-t-[10px] mt-8 md:mt-0" imgClassName="rounded-t-[4px]" image={png.WhyJoinUs} />
           </div>
         </div>

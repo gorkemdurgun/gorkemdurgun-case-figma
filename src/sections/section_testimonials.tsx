@@ -53,11 +53,11 @@ export const SectionTestimonials = () => {
 
   return (
     <section className="because-they-love-us">
-      <div className="flex flex-col items-center justify-center py-[80px] gap-[48px] bg-eggWhite">
+      <div className="flex flex-col items-center justify-center py-[48px] md:py-[80px] gap-[32px] md:gap-[48px] bh-white md:bg-eggWhite">
         {/* Because they love us heading */}
-        <div className="w-full flex flex-row items-center justify-between gap-[48px] px-[80px]">
-          <h2 className="h2 text-darkBlue">Because they love us</h2>
-          <span className="flex flex-row items-center gap-[24px]">
+        <div className="w-full flex flex-row items-center justify-center md:justify-between gap-[48px] px-[16px] md:px-[80px]">
+          <h2 className="h5 md:h2 text-darkBlue">Because they love us</h2>
+          <span className="hidden md:flex flex-row items-center gap-[24px]">
             <button className="btn border-[2px] border-peanut rounded-[30px] p-[12px]" onClick={() => handleScrollSmoothly(-300)}>
               <img src={svg.ArrowIcon} alt="Arrow Left" />
             </button>
@@ -68,10 +68,8 @@ export const SectionTestimonials = () => {
         </div>
         {/* Because they love us cards */}
         <div className="relative overflow-hidden w-full">
-          {/* Background Rectangle */}
-          <div className="z-0 absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[95vw] h-[80%] bg-[#FDE68A]" />
-          {/* Scrollable Container */}
-          <div ref={testimonialListRef} className="z-10 flex flex-row items-center justify-between gap-[24px] px-[80px] overflow-x-auto">
+          <div className="z-0 absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[100vw] md:w-[95vw] h-[95%] bg-[#FDE68A]" />
+          <div ref={testimonialListRef} className="z-10 flex flex-row items-stretch justify-between gap-[24px] px-[16px] md:px-[80px] overflow-x-auto">
             {testimonials.concat(testimonials).map((testimonial, index) => (
               <TestimonialCard key={index} {...testimonial} />
             ))}
