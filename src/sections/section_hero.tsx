@@ -3,7 +3,7 @@ import { svg } from "../assets/images";
 export const SectionHero = () => {
   return (
     <section className="hero">
-      <div className="relative flex flex-col px-[16px] md:px-[80px] md:bg-gradient-to-tl from-[50%] from-egg to-eggWhite to-[50%]">
+      <div className="relative overflow-hidden flex flex-col px-[16px] md:px-[80px] md:bg-gradient-to-tl from-[50%] from-egg to-eggWhite to-[50%]">
         <div className="md:hidden z-0 absolute bottom-0 left-0 w-[260vw] h-[80%] bg-gradient-to-tl from-[75%] from-egg to-white to-[75%] " />
         {/* Hero Image Section */}
         <div className="relative flex flex-col md:flex-row items-center justify-between py-[48px] md:py-[80px] gap-[32px] md:gap-[80px]">
@@ -30,7 +30,7 @@ export const SectionHero = () => {
         </div>
         {/* Hero Features Section */}
         <div className="z-10 flex flex-col md:flex-row items-center justify-between gap-[32px] md:gap-[80px] py-[80px]">
-          <div className="flex flex-col items-center gap-[16px] text-center md:text-start">
+          <div className="flex flex-col items-center md:items-start gap-[16px] text-center md:text-start">
             <div className="flex flex-row items-center relative w-fit">
               <img src={svg.TrophyIcon} className=" z-10 w-[64px] h-[64px]" alt="Trophy Icon" />
               <img className="!z-0 absolute -top-0 -right-5" src={svg.TrophyBadge} alt="Trophy Badge" />
