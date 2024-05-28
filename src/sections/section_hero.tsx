@@ -40,7 +40,7 @@ export const SectionHero = () => {
               Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.
             </p>
           </div>
-          <div className="flex flex-col items-center gap-[16px] text-center md:text-start">
+          <div className="flex flex-col items-center md:items-start gap-[16px] text-center md:text-start">
             <div className="flex flex-row items-center relative w-fit">
               <img src={svg.TunnelIcon} className=" z-10 w-[64px] h-[64px]" alt="Tunnel Icon" />
               <img className="!z-0 absolute -top-0 -right-0" src={svg.TunnelBadge} alt="Tunnel Badge" />
@@ -50,7 +50,7 @@ export const SectionHero = () => {
               Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.
             </p>
           </div>
-          <div className="flex flex-col items-center gap-[16px] text-center md:text-start">
+          <div className="flex flex-col items-center md:items-start gap-[16px] text-center md:text-start">
             <div className="flex flex-row items-center relative w-fit">
               <img src={svg.TvIcon} className=" z-10 w-[64px] h-[64px]" alt="Tv Icon" />
               <img className="!z-0 absolute -top-0 -right-6" src={svg.TvBadge} alt="Tv Badge" />

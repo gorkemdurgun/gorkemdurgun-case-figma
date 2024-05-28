@@ -59,10 +59,10 @@ export const SectionTestimonials = () => {
           <h2 className="h5 md:h2 text-darkBlue">Because they love us</h2>
           <span className="hidden md:flex flex-row items-center gap-[24px]">
             <button className="btn border-[2px] border-peanut rounded-[30px] p-[12px]" onClick={() => handleScrollSmoothly(-300)}>
-              <img src={svg.ArrowIcon} alt="Arrow Left" />
+              <img src={svg.ArrowPeanutIcon} className="text-white" alt="Arrow Left" />
             </button>
             <button className="border-[2px] border-peanut rounded-[30px] p-[12px] rotate-180" onClick={() => handleScrollSmoothly(300)}>
-              <img src={svg.ArrowIcon} alt="Arrow Right" />
+              <img src={svg.ArrowPeanutIcon} alt="Arrow Right" />
             </button>
           </span>
         </div>

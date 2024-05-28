@@ -2,7 +2,7 @@ import React from "react";
 
 import "./App.css";
 import { BestCard, ImageBox, Navbar, TestimonialCard } from "./components";
-import { SectionHero, SectionBestOfTheBest, SectionWhyJoinUs, SectionTestimonials } from "./sections";
+import { SectionHero, SectionBestOfTheBest, SectionWhyJoinUs, SectionTestimonials, SectionGrowYourCollection } from "./sections";
 
 function App() {
   const testimonialListRef = React.useRef(null);
@@ -30,6 +30,8 @@ function App() {
       <SectionWhyJoinUs />
       {/* Because they love us section */}
       <SectionTestimonials />
+      {/* Grow your collection section */}
+      <SectionGrowYourCollection />
     </div>
   );
 }

@@ -10,12 +10,20 @@ import TvBadge from "./tv_badge.svg";
 import ShoppingIcon from "./shopping_icon.svg";
 import CheckIcon from "./check_icon.svg";
 import PlayIcon from "./play_icon.svg";
-import ArrowIcon from "./arrow_left.svg";
+import ArrowPeanutIcon from "./arrow_peanut.svg";
+import ArrowBlackIcon from "./arrow_black.svg";
 import ZoomerLogo from "./zoomer_logo.svg";
 import ShellsLogo from "./shells_logo.svg";
 import ArtVenueLogo from "./artvenue_logo.svg";
 import WaLogo from "./wa_logo.svg";
 import MenuToggle from "./menu_toggle.svg";
+import Waves from "./waves.svg";
+import PodcastIcon from "./podcast.svg";
+import RocketIcon from "./rocket.svg";
+import ScreenIcon from "./screen.svg";
+import SearchIcon from "./search.svg";
+import SettingsAltIcon from "./settings-alt.svg";
+import ShieldCheckIcon from "./shield-check.svg";
 
 // JPEGs
 import BestCard1 from "./best_card_1.jpeg";
@@ -24,6 +32,8 @@ import BestCard3 from "./best_card_3.jpeg";
 
 // PNGs
 import WhyJoinUs from "./why_join_us.png";
+import GrowYourCollection from "./grow_your_collection.png";
+import GrowYourCollectionMobile from "./grow_your_collection_mobile.png";
 
 export const svg = {
   Sneaker1,
@@ -37,12 +47,20 @@ export const svg = {
   ShoppingIcon,
   CheckIcon,
   PlayIcon,
-  ArrowIcon,
+  ArrowPeanutIcon,
+  ArrowBlackIcon,
   ZoomerLogo,
   ShellsLogo,
   ArtVenueLogo,
   WaLogo,
   MenuToggle,
+  Waves,
+  PodcastIcon,
+  RocketIcon,
+  ScreenIcon,
+  SearchIcon,
+  SettingsAltIcon,
+  ShieldCheckIcon,
 };
 
 export const jpeg = {
@@ -53,4 +71,6 @@ export const jpeg = {
 
 export const png = {
   WhyJoinUs,
+  GrowYourCollection,
+  GrowYourCollectionMobile
 };
