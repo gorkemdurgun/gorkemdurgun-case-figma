@@ -18,7 +18,9 @@ import WaLogo from "./wa_logo.svg";
 import MenuToggle from "./menu_toggle.svg";
 
 // JPEGs
-import Card1Photo from "./card1.jpeg";
+import BestCard1 from "./best_card_1.jpeg";
+import BestCard2 from "./best_card_2.jpeg";
+import BestCard3 from "./best_card_3.jpeg";
 
 // PNGs
 import WhyJoinUs from "./why_join_us.png";
@@ -44,7 +46,9 @@ export const svg = {
 };
 
 export const jpeg = {
-  Card1Photo,
+  BestCard1,
+  BestCard2,
+  BestCard3,
 };
 
 export const png = {

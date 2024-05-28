@@ -34,8 +34,8 @@ export const Navbar = () => {
   return (
     <nav
       className={`${
-        isMobileMenuOpen ? "fixed" : "none"
-      } z-50 w-full flex justify-between items-center p-[16px] md:py-[24px] md:px-[80px] bg-eggWhite`}
+        isMobileMenuOpen ? "fixed" : "relative"
+      } md:relative z-50 w-full flex justify-between items-center p-[16px] md:py-[24px] md:px-[80px] bg-eggWhite`}
     >
       {/* Logo */}
       <a href="/" className="h5 text-peanut">

@@ -12,7 +12,7 @@ export const BestCard: React.FC<Props> = ({ image, title, description }) => {
     <div className="relative z-10 flex flex-col gap-[10px] text-start rounded-[10px] bg-darkBlue shadow-combine-lights">
       {/* Card Header */}
       <div className="relative w-full h-[220px] rounded-t-[10px]">
-        <ImageBox alt="Card 1" className="w-full h-full rounded-t-[10px]" imgClassName="rounded-t-[4px]" image={image} />
+        <ImageBox alt="Card 1" className="w-full h-full rounded-t-[10px]" imgClassName="rounded-t-[10px]" image={image} />
       </div>
       {/* Card Body */}
       <div className="flex flex-col gap-[16px] p-[32px] pb-0">
