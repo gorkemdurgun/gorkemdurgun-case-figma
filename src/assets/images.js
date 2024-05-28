@@ -9,11 +9,18 @@ import TvIcon from "./tv_icon.svg";
 import TvBadge from "./tv_badge.svg";
 import ShoppingIcon from "./shopping_icon.svg";
 import CheckIcon from "./check_icon.svg";
+import PlayIcon from "./play_icon.svg";
+import ArrowIcon from "./arrow_left.svg";
+import ZoomerLogo from "./zoomer_logo.svg";
+import ShellsLogo from "./shells_logo.svg";
+import ArtVenueLogo from "./artvenue_logo.svg";
+import WaLogo from "./wa_logo.svg";
 
 // JPEGs
 import Card1Photo from "./card1.jpeg";
 
 // PNGs
+import WhyJoinUs from "./why_join_us.png";
 
 export const svg = {
   Sneaker1,
@@ -26,8 +33,18 @@ export const svg = {
   TvBadge,
   ShoppingIcon,
   CheckIcon,
+  PlayIcon,
+  ArrowIcon,
+  ZoomerLogo,
+  ShellsLogo,
+  ArtVenueLogo,
+  WaLogo,
 };
 
 export const jpeg = {
   Card1Photo,
+};
+
+export const png = {
+  WhyJoinUs,
 };

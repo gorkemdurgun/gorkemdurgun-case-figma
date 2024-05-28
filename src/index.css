@@ -90,9 +90,11 @@ code {
 }
 
 button {
-  border: none;
-  outline: none;
-  cursor: pointer;
   padding: 0;
   margin: 0;
+}
+
+/* // scrollbar hide */
+::-webkit-scrollbar {
+  display: none;
 }
