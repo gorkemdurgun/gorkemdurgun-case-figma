@@ -1,4 +1,5 @@
 import React from "react";
+import { svg } from "../assets/images";
 
 export const Navbar = () => {
   const links = [
@@ -28,14 +29,41 @@ export const Navbar = () => {
     },
   ];
 
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
+
   return (
-    <nav className="w-full flex justify-between items-center py-[24px] px-[80px] bg-eggWhite">
+    <nav
+      className={`${
+        isMobileMenuOpen ? "fixed" : "none"
+      } z-50 w-full flex justify-between items-center p-[16px] md:py-[24px] md:px-[80px] bg-eggWhite`}
+    >
       {/* Logo */}
       <a href="/" className="h5 text-peanut">
         Collers
       </a>
       {/* Navigation Links */}
-      <div className="flex gap-[16px]">
+      <div className="hidden md:flex gap-[16px]">
+        {links.slice(0, -1).map((link, index) => (
+          <button key={index} className="btn btn-m py-[12px] px-[8px]">
+            {link.title}
+          </button>
+        ))}
+        {links.slice(-1).map((link, index) => (
+          <button key={index} className="btn btn-m-outline py-[12px] px-[28px]">
+            {link.title}
+          </button>
+        ))}
+      </div>
+      <button className="md:hidden" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+        <img src={svg.MenuToggle} alt="Menu Toggle" />
+      </button>
+      {/* Mobile Drawer Menu - with animation */}
+
+      <div
+        className={`${isMobileMenuOpen ? "animate-fadeIn" : "animate-fadeOut"} ${
+          isMobileMenuOpen ? "flex" : "hidden"
+        } md:hidden flex-col gap-[8px] absolute top-[64px] left-0 right-0 bg-eggWhite p-[16px] rounded-b-[20px] z-10 shadow-lg`}
+      >
         {links.slice(0, -1).map((link, index) => (
           <button key={index} className="btn btn-m py-[12px] px-[8px]">
             {link.title}

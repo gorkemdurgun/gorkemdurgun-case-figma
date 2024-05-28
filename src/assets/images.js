@@ -15,6 +15,7 @@ import ZoomerLogo from "./zoomer_logo.svg";
 import ShellsLogo from "./shells_logo.svg";
 import ArtVenueLogo from "./artvenue_logo.svg";
 import WaLogo from "./wa_logo.svg";
+import MenuToggle from "./menu_toggle.svg";
 
 // JPEGs
 import Card1Photo from "./card1.jpeg";
@@ -39,6 +40,7 @@ export const svg = {
   ShellsLogo,
   ArtVenueLogo,
   WaLogo,
+  MenuToggle,
 };
 
 export const jpeg = {
