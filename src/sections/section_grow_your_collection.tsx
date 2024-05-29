@@ -19,7 +19,7 @@ export const SectionGrowYourCollection = () => {
 
   return (
     <section className="grow-your-collection">
-      <div className="relative flex flex-col items-center justify-center pt-[48px] md:pt-[80px] pb-[96px] md:pb-[128px] gap-[32px] gap-[32px] md:gap-[80px] bg-white md:bg-eggWhite">
+      <div className="relative flex flex-col items-center justify-center pt-[48px] md:pt-[80px] pb-[96px] md:pb-[128px] gap-[32px] gap-[32px] md:gap-[80px] bg-white md:bg-lightCream">
         <div className="z-0 absolute bottom-0 left-0 w-[100vw]">
           <img src={svg.Waves} alt="Waves" className=" w-[100vw]" />
         </div>

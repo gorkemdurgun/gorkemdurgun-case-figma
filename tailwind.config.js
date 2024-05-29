@@ -10,6 +10,7 @@ module.exports = {
         peanut: "#78350F",
         egg: "#FEF3C7",
         eggWhite: "#FFFBEB",
+        lightCream: "#FFFEF9",
         darkBlue: "#0F172A",
         logoGray: "#475569",
       },
