@@ -30,11 +30,7 @@ import BestCard1 from "./best_card_1.jpeg";
 import BestCard2 from "./best_card_2.jpeg";
 import BestCard3 from "./best_card_3.jpeg";
 import WhyJoinUs from "./why_join_us.jpeg";
-
-// PNGs
-
-import GrowYourCollection from "./grow_your_collection.png";
-import GrowYourCollectionMobile from "./grow_your_collection_mobile.png";
+import GrowSquare from "./grow_square.jpeg";
 
 export const svg = {
   Sneaker1,
@@ -69,9 +65,5 @@ export const jpeg = {
   BestCard2,
   BestCard3,
   WhyJoinUs,
-};
-
-export const png = {
-  GrowYourCollection,
-  GrowYourCollectionMobile,
+  GrowSquare,
 };

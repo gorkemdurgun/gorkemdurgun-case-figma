@@ -1,4 +1,4 @@
-import { jpeg, png, svg } from "../assets/images";
+import { jpeg, svg } from "../assets/images";
 import { ImageBox, MacWindow } from "../components";
 
 export const SectionWhyJoinUs = () => {
@@ -67,7 +67,7 @@ export const SectionWhyJoinUs = () => {
             <div className="z-10 absolute w-full bottom-[30px] md:bottom-[50px] left-[50px] md:left-[80px]">
               <GreenCircle />
             </div>
-            <MacWindow className="z-1" content={jpeg.WhyJoinUs} />
+            <MacWindow className="z-1" image={jpeg.WhyJoinUs} />
           </div>
         </div>
       </div>

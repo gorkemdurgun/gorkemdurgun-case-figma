@@ -1,10 +1,11 @@
 type Props = {
   className?: string;
-  content: string;
-  contentClassName?: string;
+  bodyClassName?: string;
+  image: string;
+  imageClassname?: string;
 };
 
-export const MacWindow = ({ className, content, contentClassName }: Props) => {
+export const MacWindow = ({ className, bodyClassName, image, imageClassname }: Props) => {
   return (
     <div className={`relative flex flex-col shadow-combine-darks-xxl rounded-[20px] bg-white ${className}`}>
       {/* Mac Window Header */}
@@ -16,8 +17,8 @@ export const MacWindow = ({ className, content, contentClassName }: Props) => {
         </div>
       </div>
       {/* Mac Window Body */}
-      <div className={`relative p-[4px] pt-0 rounded-b-[20px] ${contentClassName}`}>
-        <img className="w-full h-auto rounded-b-[20px] " src={content} alt="Mac Window" />
+      <div className={`relative p-[4px] pt-0 rounded-b-[20px] ${bodyClassName}`}>
+        <img className={`w-full h-auto rounded-b-[20px] object-cover ${imageClassname}`} src={image} alt="Mac Window" />
       </div>
     </div>
   );

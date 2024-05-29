@@ -31,7 +31,7 @@ function App() {
       {/* Because they love us section */}
       <SectionTestimonials />
       {/* Grow your collection section */}
-      {/* <SectionGrowYourCollection /> */}
+      <SectionGrowYourCollection />
       {/* Map section */}
       {/* <SectionMap /> */}
     </div>
