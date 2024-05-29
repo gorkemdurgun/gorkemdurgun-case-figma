@@ -32,12 +32,12 @@ export const SectionGrowYourCollection = () => {
           </p>
         </div>
         {/* Grow your collection body */}
-        <div className="z-10 w-full flex flex-col md:flex-row items-start md:items-center justify-between gap-[32px] pl-[16px] md:px-[16px] md:px-[80px] md:mb-24">
+        <div className="z-10 w-full flex flex-col md:flex-row items-start md:items-center justify-between gap-[32px] md:px-[80px] md:mb-24">
           {
             // TODO: Slideable buttons not working for mobile view
           }
-          {/* <div className="flex flex-row md:flex-col md:items-stretch md:justify-center gap-[16px]">
-            <button className=" btn btn-l min-w-max justify-start text-start text-nowrap p-[16px] rounded-[8px] text-darkBlue bg-white shadow-combine-darks-m">
+          <div className="overflow-scroll max-w-[100vw] flex flex-row md:flex-col md:items-stretch justify-start md:justify-center gap-[16px]">
+            <button className="btn btn-l min-w-max justify-start text-start text-nowrap p-[16px] rounded-[8px] text-darkBlue bg-white shadow-combine-darks-m">
               <img src={svg.SearchIcon} alt="Search icon" className="w-[24px] h-[24px]" />
               <span className="pl-[16px] pr-[8px]">Bibendum tellus</span>
               <img src={svg.ArrowBlackIcon} alt="Arrow right" className="w-[24px] h-[24px]" />
@@ -45,8 +45,8 @@ export const SectionGrowYourCollection = () => {
             {buttons.map((button, index) => (
               <GrowButton key={index} icon={button.icon} text={button.text} />
             ))}
-          </div> */}
-          <div className="hidden md:Flex md:-mb-36">
+          </div>
+          <div className="hidden md:flex md:-mb-36">
             <ImageBox image={png.GrowYourCollection} alt="Grow your collection" />
           </div>
           <div className="md:hidden">
