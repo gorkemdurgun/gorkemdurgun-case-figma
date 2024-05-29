@@ -21,17 +21,17 @@ function App() {
           rel="stylesheet"
         />
       </head>
-      <Navbar />
+      {/* <Navbar /> */}
       {/* Hero Section */}
       <SectionHero />
       {/* The best of the best section */}
-      <SectionBestOfTheBest />
+      {/* <SectionBestOfTheBest /> */}
       {/* Why join us section */}
-      <SectionWhyJoinUs />
+      {/* <SectionWhyJoinUs /> */}
       {/* Because they love us section */}
-      <SectionTestimonials />
+      {/* <SectionTestimonials /> */}
       {/* Grow your collection section */}
-      <SectionGrowYourCollection />
+      {/* <SectionGrowYourCollection /> */}
       {/* Map section */}
       {/* <SectionMap /> */}
     </div>

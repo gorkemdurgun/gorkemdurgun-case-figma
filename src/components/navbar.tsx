@@ -62,7 +62,7 @@ export const Navbar = () => {
       <div
         className={`${isMobileMenuOpen ? "animate-fadeIn" : "animate-fadeOut"} ${
           isMobileMenuOpen ? "flex" : "hidden"
-        } md:hidden flex-col gap-[8px] absolute top-[64px] left-0 right-0 bg-eggWhite p-[16px] rounded-b-[20px] z-10 shadow-lg`}
+        } md:hidden flex-col gap-[8px] absolute top-[64px] left-0 right-0 bg-white p-[16px] rounded-b-[20px] z-10 shadow-lg`}
       >
         {links.slice(0, -1).map((link, index) => (
           <button key={index} className="btn btn-m py-[12px] px-[8px]">
