@@ -29,7 +29,7 @@ function App() {
       {/* Why join us section */}
       <SectionWhyJoinUs />
       {/* Because they love us section */}
-      {/* <SectionTestimonials /> */}
+      <SectionTestimonials />
       {/* Grow your collection section */}
       {/* <SectionGrowYourCollection /> */}
       {/* Map section */}
