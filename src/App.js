@@ -25,7 +25,7 @@ function App() {
       {/* Hero Section */}
       <SectionHero />
       {/* The best of the best section */}
-      {/* <SectionBestOfTheBest /> */}
+      <SectionBestOfTheBest />
       {/* Why join us section */}
       {/* <SectionWhyJoinUs /> */}
       {/* Because they love us section */}
