@@ -3,7 +3,13 @@ import { svg } from "../assets/images";
 export const SectionHero = () => {
   return (
     <section className="hero">
-      <div className="relative overflow-hidden flex flex-col px-[16px] md:px-[80px] md:bg-gradient-to-tl from-[50%] from-egg to-eggWhite to-[50%]">
+      <div className="relative overflow-hidden flex flex-col px-[16px] md:px-[80px] md:bg-eggWhite">
+        <div
+          className="absolute bottom-0 right-0 hidden w-[200%] bg-egg md:block md:aspect-[30/8]"
+          style={{
+            clipPath: "polygon(100% 0, 0 200%, 100% 100%)",
+          }}
+        ></div>
         <div className="md:hidden z-0 absolute bottom-0 left-0 w-[260vw] h-[80%] bg-gradient-to-tl from-[75%] from-egg to-white to-[75%] " />
         {/* Hero Image Section */}
         <div className="relative flex flex-col md:flex-row items-center justify-between py-[48px] md:py-[80px] gap-[32px] md:gap-[80px]">
