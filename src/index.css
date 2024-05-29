@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .half-triangle-desktop {
+    clip-path: polygon(100% 0, 0 200%, 100% 100%);
+  }
+  .half-triangle-mobile {
+    clip-path: polygon(100% 0, 0 125%, 100% 100%);
+  }
+}
+
 @layer components {
   /* Font Styles */
   .h1-l {

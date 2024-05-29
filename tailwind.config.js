@@ -14,7 +14,6 @@ module.exports = {
         darkBlue: "#0F172A",
         logoGray: "#475569",
       },
-
       boxShadow: {
         lighter: "0px 0px 15px 0px rgba(255, 255, 255, 0.07)",
         light: "0px 25px 50px -12px rgba(255, 255, 255, 0.25)",
@@ -29,6 +28,7 @@ module.exports = {
         "darker-xl": "0px 20px 25px -5px #0000001A",
         "combine-darks-xl": "0px 0px 10px 0px #00000012, 0px 20px 25px -5px #0000001A",
       },
+      
     },
   },
   plugins: [],

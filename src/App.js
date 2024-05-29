@@ -21,7 +21,7 @@ function App() {
           rel="stylesheet"
         />
       </head>
-      {/* <Navbar /> */}
+      <Navbar />
       {/* Hero Section */}
       <SectionHero />
       {/* The best of the best section */}
