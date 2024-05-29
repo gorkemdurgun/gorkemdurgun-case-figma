@@ -27,7 +27,7 @@ function App() {
       {/* The best of the best section */}
       <SectionBestOfTheBest />
       {/* Why join us section */}
-      {/* <SectionWhyJoinUs /> */}
+      <SectionWhyJoinUs />
       {/* Because they love us section */}
       {/* <SectionTestimonials /> */}
       {/* Grow your collection section */}

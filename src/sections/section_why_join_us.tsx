@@ -1,7 +1,32 @@
-import { png, svg } from "../assets/images";
-import { ImageBox } from "../components";
+import { jpeg, png, svg } from "../assets/images";
+import { ImageBox, MacWindow } from "../components";
 
 export const SectionWhyJoinUs = () => {
+  const YellowAndBlueBox = () => {
+    return (
+      <div className="absolute">
+        <div className="relative h-[135px] w-[411px] md:h-[218px] md:w-[667px] bg-[#FDE68A] -rotate-45 shadow-darker-xxl">
+          <div className="absolute -translate-y-1/2  top-1/2 -right-[18.5px] -mr-[12px] h-[37px] w-[37px] md:h-[60px] md:w-[60px] rounded-[30px] bg-[#0369A1] opacity-75 "></div>
+        </div>
+      </div>
+    );
+  };
+  const PinkAndVioletBox = () => {
+    return (
+      <div className="absolute">
+        <div className="relative h-[135px] w-[135px] md:h-[218px] md:w-[218px] rounded-[50px] bg-[#BE185D] opacity-75 ">
+          <div className="absolute top-1/2 -translate-y-1/2 -left-[36px] h-[46px] w-[46px] md:h-[74px] md:w-[74px] rounded-[30px] bg-[#A21CAF] opacity-75"></div>
+        </div>
+      </div>
+    );
+  };
+  const BrownBox = () => {
+    return <div className="absolute h-[55px] w-[55px] md:h-[90px] md:w-[90px] rounded-[30px] bg-[#B45309] opacity-75"></div>;
+  };
+  const GreenCircle = () => {
+    return <div className="absolute h-[50px] w-[50px] md:h-[85px] md:w-[85px] rounded-[50px] bg-[#15803D] opacity-75"></div>;
+  };
+
   return (
     <section className="why-join-us ">
       <div className="relative overflow-hidden flex flex-col items-center justify-center py-[16px] pb-16 md:py-[160px] px-[16px] md:px-[80px] gap-[80px] bg-white md:bg-lightCream">
@@ -29,16 +54,20 @@ export const SectionWhyJoinUs = () => {
             <button className="btn btn-l-outline w-fit py-[16px] px-[32px]">Sign up now</button>
           </div>
           {/* Why join us right side */}
-          <div className="relative -my-[20px]">
-            <div className="
-           -ml-6 mt-4 md:m-0
-            absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 aspect-[3/1] w-[120%] md:w-[666px] h-[auto] md:h-[217px] bg-[#FDE68A] -rotate-45" />
-            <div className="absolute -top-4 md:-top-12 right-10 md:right-8 w-[36px] md:w-[60px] h-[36px] md:h-[60px] rounded-[50px] bg-[#0369A1] opacity-75" />
-            <div className="absolute top-12 md:top-10 -left-6 md:left-4 w-[55px] md:w-[90px] h-[55px] h-[90px] rounded-[30px] bg-[#B45309] opacity-75" />
-            <div className="z-10 absolute -bottom-6 md:-bottom-4 left-10 md:left-28 transform -translate-y-1/2 w-[50px] md:w-[90px] h-[50px] md:h-[90px] rounded-[50%] bg-[#15803D] opacity-75" />
-            <div className="absolute -bottom-10 md:-bottom-20 -right-12 md:-right-32 w-[134px] md:w-[218px] h-[134px] md:h-[218px] rounded-[50px] bg-[#BE185D] opacity-75" />
-            <div className="absolute bottom-0 md:bottom-4 right-16 md:right-14 w-[45px] md:w-[74px] h-[45px] md:h-[74px] rounded-[30px] bg-[#A21CAF] opacity-75" />
-            <ImageBox alt="WhyJoinUs" className="scale-[1.15] md:scale-1 w-full h-auto rounded-t-[10px] mt-8 md:mt-0" imgClassName="rounded-t-[4px]" image={png.WhyJoinUs} />
+          <div className="relative w-full h-full">
+            <div className="absolute w-full bottom-[270px] -left-[90px]">
+              <YellowAndBlueBox />
+            </div>
+            <div className="absolute w-full bottom-[100px] -right-[420px]">
+              <PinkAndVioletBox />
+            </div>
+            <div className="absolute w-full top-[20px] -left-[20px]">
+              <BrownBox />
+            </div>
+            <div className="z-10 absolute w-full bottom-[50px] left-[80px]">
+              <GreenCircle />
+            </div>
+            <MacWindow className="z-1" content={jpeg.WhyJoinUs} />
           </div>
         </div>
       </div>

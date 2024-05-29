@@ -13,6 +13,9 @@ module.exports = {
         lightCream: "#FFFEF9",
         darkBlue: "#0F172A",
         logoGray: "#475569",
+        red: '#E11D48',
+        yellow: '#FBBF24',
+        green: '#22C55E',
       },
       boxShadow: {
         lighter: "0px 0px 15px 0px rgba(255, 255, 255, 0.07)",
@@ -27,6 +30,9 @@ module.exports = {
         "dark-xl": "0px 0px 10px 0px #00000012",
         "darker-xl": "0px 20px 25px -5px #0000001A",
         "combine-darks-xl": "0px 0px 10px 0px #00000012, 0px 20px 25px -5px #0000001A",
+        "dark-xxl": "0px 0px 15px 0px #00000012",
+        "darker-xxl": "0px 25px 50px -12px #00000040",
+        "combine-darks-xxl": "0px 0px 15px 0px #00000012, 0px 25px 50px -12px #00000040",
       },
       
     },
