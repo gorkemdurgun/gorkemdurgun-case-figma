@@ -6,7 +6,7 @@ export const SectionWhyJoinUs = () => {
     return (
       <div className="absolute">
         <div className="relative h-[135px] w-[411px] md:h-[218px] md:w-[667px] bg-[#FDE68A] -rotate-45 shadow-darker-xxl">
-          <div className="absolute -translate-y-1/2  top-1/2 -right-[18.5px] -mr-[12px] h-[37px] w-[37px] md:h-[60px] md:w-[60px] rounded-[30px] bg-[#0369A1] opacity-75 "></div>
+          <div className="absolute -translate-y-1/2  top-1/2 -right-[18.5px] md:-mr-[12px] h-[37px] w-[37px] md:h-[60px] md:w-[60px] rounded-[30px] bg-[#0369A1] opacity-75 "></div>
         </div>
       </div>
     );
@@ -15,7 +15,7 @@ export const SectionWhyJoinUs = () => {
     return (
       <div className="absolute">
         <div className="relative h-[135px] w-[135px] md:h-[218px] md:w-[218px] rounded-[50px] bg-[#BE185D] opacity-75 ">
-          <div className="absolute top-1/2 -translate-y-1/2 -left-[36px] h-[46px] w-[46px] md:h-[74px] md:w-[74px] rounded-[30px] bg-[#A21CAF] opacity-75"></div>
+          <div className="absolute top-1/2 -translate-y-1/2 -left-[24px] md:-left-[36px] h-[46px] w-[46px] md:h-[74px] md:w-[74px] rounded-[30px] bg-[#A21CAF] opacity-75"></div>
         </div>
       </div>
     );
@@ -55,16 +55,16 @@ export const SectionWhyJoinUs = () => {
           </div>
           {/* Why join us right side */}
           <div className="relative w-full h-full">
-            <div className="absolute w-full bottom-[270px] -left-[90px]">
+            <div className="absolute w-full bottom-[175px] md:bottom-[270px] -left-[70px] md:-left-[90px]">
               <YellowAndBlueBox />
             </div>
-            <div className="absolute w-full bottom-[100px] -right-[420px]">
+            <div className="absolute w-full bottom-[70px] md:bottom-[100px] -right-[250px] md:-right-[420px]">
               <PinkAndVioletBox />
             </div>
             <div className="absolute w-full top-[20px] -left-[20px]">
               <BrownBox />
             </div>
-            <div className="z-10 absolute w-full bottom-[50px] left-[80px]">
+            <div className="z-10 absolute w-full bottom-[30px] md:bottom-[50px] left-[50px] md:left-[80px]">
               <GreenCircle />
             </div>
             <MacWindow className="z-1" content={jpeg.WhyJoinUs} />
