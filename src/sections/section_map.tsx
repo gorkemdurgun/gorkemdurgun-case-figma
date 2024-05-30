@@ -4,16 +4,16 @@ import { ImageBox } from "../components";
 export const SectionMap = () => {
   return (
     <section className="section-map">
-      <div className="relative overflow-hidden flex flex-col items-center mt-[128px] px-[16px] md:p-[80px] md:bg-peanut">
-        <div className="relative">
+      <div className="relative overflow-hidden flex flex-col items-center mt-[250px] md:mt-60 px-[16px] p-[48px] md:p-[80px] bg-peanut">
+        <div className="relative w-[300%] md:w-auto ml-auto mr-0 md:m-0">
           <img src={svg.Map} alt="Map" className="w-full h-auto opacity-50" />
           <div className="absolute -top-12 left-24 inset-0 flex items-center justify-center">
             <img src={svg.MapEllipses} alt="Ellipses" className="w-auto h-auto" />
           </div>
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+          <div className="absolute top-1/2 left-[17%] md:left-1/2 transform -translate-x-1/2 -translate-y-1/2">
             <div className="flex flex-col">
-              <span className="h1-l text-white">11,658,467</span>
-              <span className="h2 text-white">Shoes Collected</span>
+              <span className="h3 md:h1-l text-white">11,658,467</span>
+              <span className="h5 md:h2 text-white">Shoes Collected</span>
             </div>
           </div>
           <div className="absolute top-[240px] left-[150px] w-[32px] h-[32px] bg-[#D9F99D] border border-[3px] border-[#A3E635] rounded-full">

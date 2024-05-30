@@ -26,9 +26,9 @@ export const SectionGrowYourCollection = () => {
 
   return (
     <section className="grow-your-collection">
-      <div className="relative flex flex-col items-center justify-center pt-[48px] md:pt-[80px] pb-[96px] md:pb-[128px] gap-[32px] gap-[32px] md:gap-[80px] bg-white md:bg-lightCream">
-        <div className="z-0 absolute bottom-0 left-0 md:w-[100vw]">
-          <img src={svg.Waves} alt="Waves" className="-mb-48 md:-mb-32 md:w-[100vw]" />
+      <div className="relative flex flex-col items-center justify-center pt-[48px] md:pt-[80px] pb-[96px] md:pb-[28px] gap-[32px] gap-[32px] md:gap-[80px] bg-white md:bg-lightCream">
+        <div className="z-0 absolute -bottom-[250px] md:-bottom-60 left-0 w-[100vw]">
+          <ImageBox image={svg.Waves} alt="Waves" className=" overflow-hidden w-full" imgClassName="min-w-[300vw] md:min-w-[100vw] md:w-[100vw]" />
         </div>
         {/* Grow your collection heading */}
         <div className="z-10 w-full flex flex-col items-center md:items-start justify-center text-center md:text-start gap-[32px] px-[16px] md:px-[80px]">
@@ -48,17 +48,28 @@ export const SectionGrowYourCollection = () => {
             ))}
           </div>
           {/* Windows */}
-          {/* <div className="relative w-full flex items-start max-w-[100vw]">
+          <div className="relative w-full flex items-start max-w-[100vw]">
             <div className="relative w-full">
-              <div className="absolute top-0 left-[16px] md:left-0 z-0">
+              <div className="absolute z-0 left-[16px] md:left-0">
                 <div className="relative">
-                  <MacWindow image={jpeg.WhyJoinUs} imageClassname={"md:w-[760px] md:max-h-[400px]"} />
-                  <div className="absolute top-24 -right-24 z-0">
+                  <MacWindow
+                    image={jpeg.WhyJoinUs}
+                    imageClassname={"w-[294px] md:w-[760px] h-[160px] md:h-auto md:max-h-[400px] shadow-combine-darks-xxl"}
+                  />
+                  <div className="absolute z-0 top-[60px] md:top-24 -right-[42px] md:-right-12">
                     <div className="relative">
-                      <MacWindow image={jpeg.BestCard2} className="w-full" imageClassname={"md:w-[760px] md:max-h-[400px]"} />
-                      <div className="absolute transform -translate-x-1/2 -translate-y-1/2 top-60 -right-60 z-10">
+                      <MacWindow
+                        image={jpeg.BestCard2}
+                        className="w-full"
+                        imageClassname={"w-[295px] md:w-[760px] h-[161px] md:h-auto md:max-h-[400px] shadow-combine-darks-xxl"}
+                      />
+                      <div className="absolute transform -translate-x-1/2 -translate-y-1/2 top-[120px] md:top-60 -right-[72px] md:-right-60 z-10 shadow-combine-darks-xxl">
                         <div className="border border-[5px] border-white w-full h-full rounded-[10px] bg-white">
-                          <img src={jpeg.GrowSquare} alt="Grow Square" className="md:w-[256px] md:h-[286px] rounded-[10px]" />
+                          <img
+                            src={jpeg.GrowSquare}
+                            alt="Grow Square"
+                            className="w-[94px] h-[105px] md:w-[256px] md:h-[286px] rounded-[10px]"
+                          />
                         </div>
                       </div>
                     </div>
@@ -66,7 +77,7 @@ export const SectionGrowYourCollection = () => {
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>
