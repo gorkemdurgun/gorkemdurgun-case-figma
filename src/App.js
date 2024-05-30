@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./App.css";
-import { BestCard, ImageBox, Navbar, TestimonialCard } from "./components";
+import { BestCard, Footer, ImageBox, Navbar, TestimonialCard } from "./components";
 import { SectionHero, SectionBestOfTheBest, SectionWhyJoinUs, SectionTestimonials, SectionGrowYourCollection, SectionMap } from "./sections";
 
 function App() {
@@ -34,6 +34,8 @@ function App() {
       <SectionGrowYourCollection />
       {/* Map section */}
       <SectionMap />
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }

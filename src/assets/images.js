@@ -27,6 +27,14 @@ import SettingsAltIcon from "./settings-alt.svg";
 import ShieldCheckIcon from "./shield-check.svg";
 import Map from "./map.svg";
 import MapEllipses from "./map_ellipses.svg";
+import AppStoreLogo from "./app_store.svg";
+import GooglePlayLogo from "./google_play.svg";
+import YouTubeIcon from "./youtube.svg";
+import FacebookIcon from "./facebook.svg";
+import TwitterIcon from "./twitter.svg";
+import InstagramIcon from "./instagram.svg";
+import LinkedInIcon from "./linkedin.svg";
+import WorldIcon from "./world.svg";
 
 
 // JPEGs
@@ -66,6 +74,14 @@ export const svg = {
   ShieldCheckIcon,
   Map,
   MapEllipses,
+  AppStoreLogo,
+  GooglePlayLogo,
+  YouTubeIcon,
+  FacebookIcon,
+  TwitterIcon,
+  InstagramIcon,
+  LinkedInIcon,
+  WorldIcon,
 };
 
 export const jpeg = {

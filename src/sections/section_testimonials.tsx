@@ -55,7 +55,7 @@ export const SectionTestimonials = () => {
     <section className="because-they-love-us">
       <div className="flex flex-col items-center justify-center py-[48px] md:py-[80px] gap-[32px] md:gap-[48px] bh-white md:bg-lightCream">
         {/* Because they love us heading */}
-        <div className="w-full flex flex-row items-center justify-center md:justify-between gap-[48px] px-[16px] md:px-[80px]">
+        <div className="container w-full flex flex-row items-center justify-center md:justify-between gap-[48px]">
           <h2 className="h5 md:h2 text-darkBlue">Because they love us</h2>
           <span className="hidden md:flex flex-row items-center gap-[24px]">
             <button className="btn border-[2px] border-peanut rounded-[30px] p-[12px]" onClick={() => handleScrollSmoothly(-300)}>
@@ -68,7 +68,7 @@ export const SectionTestimonials = () => {
         </div>
         {/* Because they love us cards */}
         <div className="relative overflow-hidden w-full">
-          <div className="z-0 absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[100vw] md:w-[95vw] h-[95%] bg-[#FDE68A]" />
+          <div className="z-0 absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[100vw] md:w-[1360px] h-[95%] bg-[#FDE68A]" />
           <div
             ref={testimonialListRef}
             className="z-10 flex flex-row items-stretch justify-between gap-[24px] px-[16px] md:px-[80px] overflow-x-auto"

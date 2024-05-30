@@ -29,7 +29,8 @@ export const SectionWhyJoinUs = () => {
 
   return (
     <section className="why-join-us ">
-      <div className="relative overflow-hidden flex flex-col items-center justify-center py-[16px] pb-16 md:py-[160px] px-[16px] md:px-[80px] gap-[80px] bg-white md:bg-lightCream">
+      <div className="bg-white md:bg-lightCream">
+      <div className="container relative overflow-hidden flex flex-col items-center justify-center py-[16px] pb-16 md:py-[160px] px-[16px] md:px-[80px] gap-[80px]">
         <div className="w-full flex flex-col md:grid md:grid-cols-2 items-center justify-between gap-[32px] md:gap-[80px] py-[32px] px-[16px] md:p-[80px] rounded-[30px] bg-white shadow-combine-darks-xl ">
           {/* Why join us left side */}
           <div className="z-10 flex flex-col items-center md:items-start gap-[24px] text-center md:text-start">
@@ -70,6 +71,7 @@ export const SectionWhyJoinUs = () => {
             <MacWindow className="z-1" image={jpeg.WhyJoinUs} />
           </div>
         </div>
+      </div>
       </div>
     </section>
   );

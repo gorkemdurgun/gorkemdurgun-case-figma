@@ -35,8 +35,9 @@ export const Navbar = () => {
     <nav
       className={`${
         isMobileMenuOpen ? "fixed" : "relative"
-      } md:relative z-50 w-full flex justify-between items-center p-[16px] md:py-[24px] md:px-[80px] bg-white md:bg-eggWhite`}
+      } md:relative z-50 w-full flex justify-between items-center py-[16px] md:py-[24px] bg-white md:bg-eggWhite`}
     >
+      <div className="container flex justify-between items-center">
       {/* Logo */}
       <a href="/" className="h5 text-peanut">
         Collers
@@ -58,7 +59,6 @@ export const Navbar = () => {
         <img src={svg.MenuToggle} alt="Menu Toggle" />
       </button>
       {/* Mobile Drawer Menu - with animation */}
-
       <div
         className={`${isMobileMenuOpen ? "animate-fadeIn" : "animate-fadeOut"} ${
           isMobileMenuOpen ? "flex" : "hidden"
@@ -75,6 +75,7 @@ export const Navbar = () => {
           </button>
         ))}
       </div>
+    </div>
     </nav>
   );
 };

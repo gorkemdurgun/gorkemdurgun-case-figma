@@ -3,14 +3,11 @@
 @tailwind utilities;
 
 @layer utilities {
-  .half-triangle-reverse
-   {
-    clip-path: polygon(0 0, 100% 0, 100% 12.5%, 0 100%);
+  .half-triangle-reverse {
+    clip-path: polygon(0 0, 100% 0, 100% 0%, 0% 100%);
     rotate: 180deg;
-
-     
   }
-  .half-triangle-reverse-mobile{
+  .half-triangle-reverse-mobile {
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
     rotate: 180deg;
   }

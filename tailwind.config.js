@@ -2,6 +2,16 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "16px",
+        lg: "80px",
+      },
+      screens: {
+        lg: "1440px",
+      },
+    },
     extend: {
       fontFamily: {
         sans: ["Roboto", "sans-serif"],
@@ -13,9 +23,10 @@ module.exports = {
         lightCream: "#FFFEF9",
         darkBlue: "#0F172A",
         logoGray: "#475569",
-        red: '#E11D48',
-        yellow: '#FBBF24',
-        green: '#22C55E',
+        red: "#E11D48",
+        yellow: "#FBBF24",
+        green: "#22C55E",
+        linkWhite: "#E2E8F0",
       },
       boxShadow: {
         lighter: "0px 0px 15px 0px rgba(255, 255, 255, 0.07)",
@@ -34,7 +45,6 @@ module.exports = {
         "darker-xxl": "0px 25px 50px -12px #00000040",
         "combine-darks-xxl": "0px 0px 15px 0px #00000012, 0px 25px 50px -12px #00000040",
       },
-      
     },
   },
   plugins: [],
