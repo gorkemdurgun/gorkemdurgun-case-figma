@@ -33,7 +33,7 @@ function App() {
       {/* Grow your collection section */}
       <SectionGrowYourCollection />
       {/* Map section */}
-      {/* <SectionMap /> */}
+      <SectionMap />
     </div>
   );
 }

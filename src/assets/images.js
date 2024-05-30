@@ -12,6 +12,7 @@ import CheckIcon from "./check_icon.svg";
 import PlayIcon from "./play_icon.svg";
 import ArrowPeanutIcon from "./arrow_peanut.svg";
 import ArrowBlackIcon from "./arrow_black.svg";
+import ArrowBottom from "./arrow_bottom.svg";
 import ZoomerLogo from "./zoomer_logo.svg";
 import ShellsLogo from "./shells_logo.svg";
 import ArtVenueLogo from "./artvenue_logo.svg";
@@ -24,6 +25,9 @@ import ScreenIcon from "./screen.svg";
 import SearchIcon from "./search.svg";
 import SettingsAltIcon from "./settings-alt.svg";
 import ShieldCheckIcon from "./shield-check.svg";
+import Map from "./map.svg";
+import MapEllipses from "./map_ellipses.svg";
+
 
 // JPEGs
 import BestCard1 from "./best_card_1.jpeg";
@@ -31,6 +35,7 @@ import BestCard2 from "./best_card_2.jpeg";
 import BestCard3 from "./best_card_3.jpeg";
 import WhyJoinUs from "./why_join_us.jpeg";
 import GrowSquare from "./grow_square.jpeg";
+import MapOutstand from "./map_outstand.jpeg";
 
 export const svg = {
   Sneaker1,
@@ -46,6 +51,7 @@ export const svg = {
   PlayIcon,
   ArrowPeanutIcon,
   ArrowBlackIcon,
+  ArrowBottom,
   ZoomerLogo,
   ShellsLogo,
   ArtVenueLogo,
@@ -58,6 +64,8 @@ export const svg = {
   SearchIcon,
   SettingsAltIcon,
   ShieldCheckIcon,
+  Map,
+  MapEllipses,
 };
 
 export const jpeg = {
@@ -66,4 +74,5 @@ export const jpeg = {
   BestCard3,
   WhyJoinUs,
   GrowSquare,
+  MapOutstand,
 };
