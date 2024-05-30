@@ -73,9 +73,12 @@ export const SectionTestimonials = () => {
             ref={testimonialListRef}
             className="z-10 flex flex-row items-stretch justify-between gap-[24px] px-[16px] md:px-[80px] overflow-x-auto"
           >
-            {testimonials.concat(testimonials).map((testimonial, index) => (
-              <TestimonialCard key={index} {...testimonial} />
-            ))}
+            {testimonials
+              .concat(testimonials)
+              .concat(testimonials)
+              .map((testimonial, index) => (
+                <TestimonialCard key={index} {...testimonial} />
+              ))}
           </div>
         </div>
       </div>

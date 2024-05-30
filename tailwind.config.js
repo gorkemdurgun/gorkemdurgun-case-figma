@@ -27,6 +27,7 @@ module.exports = {
         yellow: "#FBBF24",
         green: "#22C55E",
         linkWhite: "#E2E8F0",
+        blackRgba: "rgba(18, 22, 25, 0.75)",
       },
       boxShadow: {
         lighter: "0px 0px 15px 0px rgba(255, 255, 255, 0.07)",
