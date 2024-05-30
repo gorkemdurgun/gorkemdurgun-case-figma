@@ -48,7 +48,7 @@ export const SectionGrowYourCollection = () => {
             ))}
           </div>
           {/* Windows */}
-          <div className="relative w-full flex items-start max-w-[100vw]">
+          {/* <div className="relative w-full flex items-start max-w-[100vw]">
             <div className="relative w-full">
               <div className="absolute z-0 left-[16px] md:left-0">
                 <div className="relative">
@@ -77,7 +77,7 @@ export const SectionGrowYourCollection = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

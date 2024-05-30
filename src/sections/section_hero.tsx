@@ -3,12 +3,12 @@ import { svg } from "../assets/images";
 export const SectionHero = () => {
   return (
     <section className="hero">
-      <div className="relative overflow-hidden flex flex-col px-[16px] md:px-[80px] md:bg-eggWhite">
-        <div
-          className="absolute bottom-0 right-0 w-[450%] md:w-[200%] bg-egg md:block aspect-[125/80] md:aspect-[300/80]
-          half-triangle-mobile md:half-triangle-desktop
-          "
-        ></div>
+      <div
+        className="relative overflow-hidden flex flex-col px-[16px] md:px-[80px] bg-white md:bg-eggWhite
+      "
+      >
+        {/* Background Half Triangle / half of hero */}
+        <div className="absolute -bottom-[480px] md:-bottom-[140px] left-0 w-full h-full bg-egg half-triangle-reverse-mobile md:half-triangle-reverse" />
         {/* Hero Image Section */}
         <div className="relative flex flex-col md:flex-row items-center justify-between py-[48px] md:py-[80px] gap-[32px] md:gap-[80px]">
           <div className="flex flex-col gap-[32px] text-center md:text-start">
